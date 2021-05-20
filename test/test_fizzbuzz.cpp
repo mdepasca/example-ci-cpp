@@ -12,7 +12,7 @@ TEST_CASE("FizzBuzz", "[fizzbuzz]") {
     "FizzBuzz", "16",   "17",   "Fizz", "19",   "Buzz"
   };
 
-  for (auto i = 1; i <= 21; ++i) {
+  for (auto i = 1; i <= 21; i++) {
     REQUIRE(fizzbuzz(i) == expected[i]);
   }
 }
